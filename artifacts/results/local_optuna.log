@@ -1,0 +1,16 @@
+trial 0: value=0.9166 best=0.9166
+trial 1: value=0.9170 best=0.9170
+trial 2: value=0.9116 best=0.9170
+trial 3: value=0.9120 best=0.9170
+trial 4: value=0.9132 best=0.9170
+trial 5: value=0.9124 best=0.9170
+trial 6: value=0.9145 best=0.9170
+trial 7: value=0.9149 best=0.9170
+trial 8: value=0.9094 best=0.9170
+trial 9: value=0.9132 best=0.9170
+trial 10: value=0.9183 best=0.9183
+trial 11: value=0.9188 best=0.9188
+trial 12: value=0.9194 best=0.9194
+trial 13: value=0.9179 best=0.9194
+best: {'n_estimators': 500, 'learning_rate': 0.15686316937068812, 'num_leaves': 96, 'min_child_samples': 46, 'subsample': 0.8607909107962404, 'colsample_bytree': 0.904318578900989, 'reg_lambda': 0.01821613041775412} value: 0.9193818937225439
+wrote /Users/sam/sem-5/ml/hackathon/artifacts/results/local_optuna.json

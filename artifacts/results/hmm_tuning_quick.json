@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-18 10:16:19",
+  "probs": "artifacts/cache/preds/lightgbm_{trip}.npz",
+  "objective": "mean student-test observation-level top-1 accuracy",
+  "classifier_only": {
+    "top1_accuracy": 0.878467308249723,
+    "route_continuity": 0.9347968819416522,
+    "seq_f1": 0.6854657255722447
+  },
+  "best": {
+    "beta": 12.0,
+    "alpha": 0.5,
+    "max_states": 8,
+    "gap_free_s": 30.0,
+    "top1_accuracy": 0.9304797920639674,
+    "route_continuity": 0.9780399215498592,
+    "seq_f1": 0.9041289853899054
+  },
+  "grid": [
+    {
+      "beta": 12.0,
+      "alpha": 0.5,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9304797920639674,
+      "route_continuity": 0.9780399215498592,
+      "seq_f1": 0.9041289853899054
+    },
+    {
+      "beta": 12.0,
+      "alpha": 1.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9113996664699101,
+      "route_continuity": 0.9760976020210126,
+      "seq_f1": 0.8845589621782592
+    },
+    {
+      "beta": 12.0,
+      "alpha": 2.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.908094769162554,
+      "route_continuity": 0.9724549422083595,
+      "seq_f1": 0.8620507594468254
+    },
+    {
+      "beta": 20.0,
+      "alpha": 0.5,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9163547943765504,
+      "route_continuity": 0.9778938665860174,
+      "seq_f1": 0.8972092900360351
+    },
+    {
+      "beta": 20.0,
+      "alpha": 1.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9118551728188754,
+      "route_continuity": 0.9752734958422742,
+      "seq_f1": 0.876028687801964
+    },
+    {
+      "beta": 20.0,
+      "alpha": 2.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9070666177179735,
+      "route_continuity": 0.9697655398958887,
+      "seq_f1": 0.8440543550442667
+    },
+    {
+      "beta": 30.0,
+      "alpha": 0.5,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9123714735774406,
+      "route_continuity": 0.9766048787410929,
+      "seq_f1": 0.8881269742403328
+    },
+    {
+      "beta": 30.0,
+      "alpha": 1.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9099025727712193,
+      "route_continuity": 0.9737196127779221,
+      "seq_f1": 0.8633405040726828
+    },
+    {
+      "beta": 30.0,
+      "alpha": 2.0,
+      "max_states": 8,
+      "gap_free_s": 30.0,
+      "top1_accuracy": 0.9052081813325705,
+      "route_continuity": 0.968163524421672,
+      "seq_f1": 0.8310618791322948
+    }
+  ],
+  "seconds": 46.7
+}

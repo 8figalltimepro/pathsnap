@@ -1,0 +1,21 @@
+train trips 80, student_test trips 10
+
+===== knn (Instance-based) =====
+  fold 0: macro_f1=0.6320 top1=0.6500 logloss=0.3497 fit=0.2s pred=38.3s
+  fold 1: macro_f1=0.6567 top1=0.6064 logloss=0.3704 fit=0.0s pred=29.3s
+  fold 2: macro_f1=0.6138 top1=0.5763 logloss=0.3156 fit=0.0s pred=60.1s
+  fold 3: macro_f1=0.5723 top1=0.5526 logloss=0.3186 fit=0.0s pred=37.0s
+  fold 4: macro_f1=0.5671 top1=0.5674 logloss=0.3157 fit=0.1s pred=35.3s
+  CV macro_f1 0.6084+-0.0344 | CV top1 0.5906 | CV logloss 0.3340
+/Users/sam/sem-5/ml/hackathon/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/sam/sem-5/ml/hackathon/.venv/lib/python3.12/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  STUDENT-TEST top1=0.5638 macro_f1=0.5684 logloss=0.3362 | HMM top1=0.6320 cont=0.8899 | train=0.1s infer=1.259ms/obs
+Traceback (most recent call last):
+  File "/Users/sam/sem-5/ml/hackathon/scripts/run_experiments.py", line 532, in <module>
+    main()
+  File "/Users/sam/sem-5/ml/hackathon/scripts/run_experiments.py", line 528, in main
+    print(f"\nwrote {out_path} ({out['total_seconds']}s total)")
+                                 ~~~^^^^^^^^^^^^^^^^^
+KeyError: 'total_seconds'

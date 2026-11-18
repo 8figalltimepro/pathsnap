@@ -1,0 +1,16 @@
+train trips 80, student_test trips 10
+
+===== lightgbm_tuned (Boosting (Bayesian-tuned)) =====
+  fold 0: macro_f1=0.8994 top1=0.8753 logloss=0.1186 fit=11.5s pred=1.9s
+  fold 1: macro_f1=0.9006 top1=0.8754 logloss=0.1255 fit=11.5s pred=1.5s
+  fold 2: macro_f1=0.8849 top1=0.8131 logloss=0.1126 fit=10.9s pred=3.1s
+  fold 3: macro_f1=0.9455 top1=0.8792 logloss=0.0569 fit=11.5s pred=1.7s
+  fold 4: macro_f1=0.9467 top1=0.8942 logloss=0.0510 fit=11.6s pred=1.6s
+  CV macro_f1 0.9154+-0.0256 | CV top1 0.8674 | CV logloss 0.0929
+/Users/sam/sem-5/ml/hackathon/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/sam/sem-5/ml/hackathon/.venv/lib/python3.12/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  STUDENT-TEST top1=0.8770 macro_f1=0.9291 logloss=0.0665 | HMM top1=0.9060 cont=0.9750 | train=12.2s infer=0.051ms/obs
+
+wrote /Users/sam/sem-5/ml/hackathon/artifacts/results/model_comparison.json (?s total)

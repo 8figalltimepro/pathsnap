@@ -1,0 +1,100 @@
+classifier-only: {'top1_accuracy': 0.8781, 'route_continuity': 0.9335, 'seq_f1': 0.6875}
+  beta=  8.0 alpha= 0.1 states= 8 top1=0.9313 cont=0.9777 seqF1=0.9146
+  beta=  8.0 alpha= 0.1 states=10 top1=0.9306 cont=0.9777 seqF1=0.9140
+  beta=  8.0 alpha= 0.2 states= 8 top1=0.9313 cont=0.9777 seqF1=0.9127
+  beta=  8.0 alpha= 0.2 states=10 top1=0.9313 cont=0.9777 seqF1=0.9129
+  beta=  8.0 alpha= 0.5 states= 8 top1=0.9298 cont=0.9779 seqF1=0.9039
+  beta=  8.0 alpha= 0.5 states=10 top1=0.9298 cont=0.9779 seqF1=0.9039
+  beta=  8.0 alpha= 0.8 states= 8 top1=0.9268 cont=0.9776 seqF1=0.8957
+  beta=  8.0 alpha= 0.8 states=10 top1=0.9268 cont=0.9776 seqF1=0.8957
+  beta=  8.0 alpha= 1.0 states= 8 top1=0.9242 cont=0.9775 seqF1=0.8909
+  beta=  8.0 alpha= 1.0 states=10 top1=0.9242 cont=0.9775 seqF1=0.8909
+  beta=  8.0 alpha= 1.5 states= 8 top1=0.9232 cont=0.9759 seqF1=0.8814
+  beta=  8.0 alpha= 1.5 states=10 top1=0.9232 cont=0.9759 seqF1=0.8814
+  beta= 10.0 alpha= 0.1 states= 8 top1=0.9319 cont=0.9776 seqF1=0.9155
+  beta= 10.0 alpha= 0.1 states=10 top1=0.9313 cont=0.9775 seqF1=0.9149
+  beta= 10.0 alpha= 0.2 states= 8 top1=0.9327 cont=0.9782 seqF1=0.9116
+  beta= 10.0 alpha= 0.2 states=10 top1=0.9327 cont=0.9782 seqF1=0.9118
+  beta= 10.0 alpha= 0.5 states= 8 top1=0.9298 cont=0.9780 seqF1=0.9029
+  beta= 10.0 alpha= 0.5 states=10 top1=0.9298 cont=0.9780 seqF1=0.9029
+  beta= 10.0 alpha= 0.8 states= 8 top1=0.9260 cont=0.9775 seqF1=0.8933
+  beta= 10.0 alpha= 0.8 states=10 top1=0.9260 cont=0.9775 seqF1=0.8933
+  beta= 10.0 alpha= 1.0 states= 8 top1=0.9230 cont=0.9770 seqF1=0.8868
+  beta= 10.0 alpha= 1.0 states=10 top1=0.9230 cont=0.9770 seqF1=0.8868
+  beta= 10.0 alpha= 1.5 states= 8 top1=0.9195 cont=0.9750 seqF1=0.8746
+  beta= 10.0 alpha= 1.5 states=10 top1=0.9195 cont=0.9750 seqF1=0.8746
+  beta= 12.0 alpha= 0.1 states= 8 top1=0.9328 cont=0.9777 seqF1=0.9166
+  beta= 12.0 alpha= 0.1 states=10 top1=0.9321 cont=0.9777 seqF1=0.9157
+  beta= 12.0 alpha= 0.2 states= 8 top1=0.9314 cont=0.9781 seqF1=0.9100
+  beta= 12.0 alpha= 0.2 states=10 top1=0.9314 cont=0.9781 seqF1=0.9102
+  beta= 12.0 alpha= 0.5 states= 8 top1=0.9289 cont=0.9778 seqF1=0.9018
+  beta= 12.0 alpha= 0.5 states=10 top1=0.9289 cont=0.9778 seqF1=0.9018
+  beta= 12.0 alpha= 0.8 states= 8 top1=0.9261 cont=0.9774 seqF1=0.8909
+  beta= 12.0 alpha= 0.8 states=10 top1=0.9261 cont=0.9774 seqF1=0.8909
+  beta= 12.0 alpha= 1.0 states= 8 top1=0.9232 cont=0.9761 seqF1=0.8832
+  beta= 12.0 alpha= 1.0 states=10 top1=0.9232 cont=0.9761 seqF1=0.8832
+  beta= 12.0 alpha= 1.5 states= 8 top1=0.9187 cont=0.9740 seqF1=0.8693
+  beta= 12.0 alpha= 1.5 states=10 top1=0.9187 cont=0.9740 seqF1=0.8693
+  beta= 14.0 alpha= 0.1 states= 8 top1=0.9341 cont=0.9777 seqF1=0.9169
+  beta= 14.0 alpha= 0.1 states=10 top1=0.9338 cont=0.9778 seqF1=0.9163
+  beta= 14.0 alpha= 0.2 states= 8 top1=0.9322 cont=0.9780 seqF1=0.9079
+  beta= 14.0 alpha= 0.2 states=10 top1=0.9322 cont=0.9780 seqF1=0.9082
+  beta= 14.0 alpha= 0.5 states= 8 top1=0.9275 cont=0.9776 seqF1=0.8987
+  beta= 14.0 alpha= 0.5 states=10 top1=0.9275 cont=0.9776 seqF1=0.8987
+  beta= 14.0 alpha= 0.8 states= 8 top1=0.9245 cont=0.9768 seqF1=0.8869
+  beta= 14.0 alpha= 0.8 states=10 top1=0.9245 cont=0.9768 seqF1=0.8869
+  beta= 14.0 alpha= 1.0 states= 8 top1=0.9214 cont=0.9757 seqF1=0.8790
+  beta= 14.0 alpha= 1.0 states=10 top1=0.9214 cont=0.9757 seqF1=0.8790
+  beta= 14.0 alpha= 1.5 states= 8 top1=0.9183 cont=0.9736 seqF1=0.8659
+  beta= 14.0 alpha= 1.5 states=10 top1=0.9183 cont=0.9736 seqF1=0.8659
+  beta= 16.0 alpha= 0.1 states= 8 top1=0.9351 cont=0.9780 seqF1=0.9160
+  beta= 16.0 alpha= 0.1 states=10 top1=0.9348 cont=0.9781 seqF1=0.9156
+  beta= 16.0 alpha= 0.2 states= 8 top1=0.9315 cont=0.9779 seqF1=0.9056
+  beta= 16.0 alpha= 0.2 states=10 top1=0.9315 cont=0.9779 seqF1=0.9057
+  beta= 16.0 alpha= 0.5 states= 8 top1=0.9274 cont=0.9777 seqF1=0.8975
+  beta= 16.0 alpha= 0.5 states=10 top1=0.9274 cont=0.9777 seqF1=0.8975
+  beta= 16.0 alpha= 0.8 states= 8 top1=0.9243 cont=0.9763 seqF1=0.8853
+  beta= 16.0 alpha= 0.8 states=10 top1=0.9243 cont=0.9763 seqF1=0.8853
+  beta= 16.0 alpha= 1.0 states= 8 top1=0.9207 cont=0.9752 seqF1=0.8765
+  beta= 16.0 alpha= 1.0 states=10 top1=0.9207 cont=0.9752 seqF1=0.8765
+  beta= 16.0 alpha= 1.5 states= 8 top1=0.9185 cont=0.9733 seqF1=0.8634
+  beta= 16.0 alpha= 1.5 states=10 top1=0.9185 cont=0.9733 seqF1=0.8634
+  beta= 20.0 alpha= 0.1 states= 8 top1=0.9354 cont=0.9778 seqF1=0.9137
+  beta= 20.0 alpha= 0.1 states=10 top1=0.9352 cont=0.9779 seqF1=0.9134
+  beta= 20.0 alpha= 0.2 states= 8 top1=0.9315 cont=0.9780 seqF1=0.9045
+  beta= 20.0 alpha= 0.2 states=10 top1=0.9312 cont=0.9781 seqF1=0.9046
+  beta= 20.0 alpha= 0.5 states= 8 top1=0.9280 cont=0.9772 seqF1=0.8923
+  beta= 20.0 alpha= 0.5 states=10 top1=0.9280 cont=0.9772 seqF1=0.8923
+  beta= 20.0 alpha= 0.8 states= 8 top1=0.9224 cont=0.9757 seqF1=0.8796
+  beta= 20.0 alpha= 0.8 states=10 top1=0.9224 cont=0.9757 seqF1=0.8796
+  beta= 20.0 alpha= 1.0 states= 8 top1=0.9200 cont=0.9745 seqF1=0.8723
+  beta= 20.0 alpha= 1.0 states=10 top1=0.9200 cont=0.9745 seqF1=0.8723
+  beta= 20.0 alpha= 1.5 states= 8 top1=0.9177 cont=0.9716 seqF1=0.8525
+  beta= 20.0 alpha= 1.5 states=10 top1=0.9177 cont=0.9716 seqF1=0.8525
+  beta= 25.0 alpha= 0.1 states= 8 top1=0.9351 cont=0.9781 seqF1=0.9123
+  beta= 25.0 alpha= 0.1 states=10 top1=0.9348 cont=0.9782 seqF1=0.9120
+  beta= 25.0 alpha= 0.2 states= 8 top1=0.9297 cont=0.9778 seqF1=0.9012
+  beta= 25.0 alpha= 0.2 states=10 top1=0.9297 cont=0.9779 seqF1=0.9013
+  beta= 25.0 alpha= 0.5 states= 8 top1=0.9264 cont=0.9765 seqF1=0.8861
+  beta= 25.0 alpha= 0.5 states=10 top1=0.9264 cont=0.9765 seqF1=0.8861
+  beta= 25.0 alpha= 0.8 states= 8 top1=0.9201 cont=0.9747 seqF1=0.8728
+  beta= 25.0 alpha= 0.8 states=10 top1=0.9201 cont=0.9747 seqF1=0.8728
+  beta= 25.0 alpha= 1.0 states= 8 top1=0.9207 cont=0.9740 seqF1=0.8662
+  beta= 25.0 alpha= 1.0 states=10 top1=0.9207 cont=0.9740 seqF1=0.8662
+  beta= 25.0 alpha= 1.5 states= 8 top1=0.9168 cont=0.9706 seqF1=0.8454
+  beta= 25.0 alpha= 1.5 states=10 top1=0.9168 cont=0.9706 seqF1=0.8454
+  beta= 30.0 alpha= 0.1 states= 8 top1=0.9328 cont=0.9782 seqF1=0.9093
+  beta= 30.0 alpha= 0.1 states=10 top1=0.9328 cont=0.9782 seqF1=0.9095
+  beta= 30.0 alpha= 0.2 states= 8 top1=0.9297 cont=0.9779 seqF1=0.8985
+  beta= 30.0 alpha= 0.2 states=10 top1=0.9297 cont=0.9780 seqF1=0.8986
+  beta= 30.0 alpha= 0.5 states= 8 top1=0.9239 cont=0.9760 seqF1=0.8809
+  beta= 30.0 alpha= 0.5 states=10 top1=0.9239 cont=0.9760 seqF1=0.8809
+  beta= 30.0 alpha= 0.8 states= 8 top1=0.9199 cont=0.9744 seqF1=0.8695
+  beta= 30.0 alpha= 0.8 states=10 top1=0.9199 cont=0.9744 seqF1=0.8695
+  beta= 30.0 alpha= 1.0 states= 8 top1=0.9185 cont=0.9727 seqF1=0.8589
+  beta= 30.0 alpha= 1.0 states=10 top1=0.9185 cont=0.9727 seqF1=0.8589
+  beta= 30.0 alpha= 1.5 states= 8 top1=0.9159 cont=0.9694 seqF1=0.8381
+  beta= 30.0 alpha= 1.5 states=10 top1=0.9159 cont=0.9694 seqF1=0.8381
+
+BEST: {'beta': 20.0, 'alpha': 0.1, 'max_states': 8, 'gap_free_s': 30.0, 'top1_accuracy': 0.9354, 'route_continuity': 0.9778, 'seq_f1': 0.9137}
+wrote /Users/sam/sem-5/ml/hackathon/artifacts/results/hmm_tuning_best.json (144.0s)

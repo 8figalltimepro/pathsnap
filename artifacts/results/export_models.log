@@ -1,0 +1,12 @@
+training rows: 780477 (185923 positives)
+lightgbm_tuned   cv_macro=0.9159 test_top1=0.8781 hmm=0.9354 size=5.2MB (2.6s)
+lightgbm         cv_macro=0.9155 test_top1=0.8785 hmm=0.9335 size=2.4MB (9.6s)
+xgboost          cv_macro=0.9164 test_top1=0.8800 hmm=0.9323 size=2.6MB (7.2s)
+hist_gb          cv_macro=0.9144 test_top1=0.8822 hmm=0.9355 size=0.8MB (10.3s)
+decision_tree    cv_macro=0.9054 test_top1=0.8695 hmm=0.9106 size=0.6MB (18.7s)
+/Users/sam/sem-5/ml/hackathon/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (30) reached and the optimization hasn't converged yet.
+  warnings.warn(
+mlp              cv_macro=0.8816 test_top1=0.8743 hmm=0.9312 size=0.1MB (6.9s)
+logreg           cv_macro=0.8024 test_top1=0.8564 hmm=0.9162 size=0.0MB (3.1s)
+gaussian_nb      cv_macro=0.7956 test_top1=0.7639 hmm=0.8875 size=0.0MB (1.8s)
+wrote /Users/sam/sem-5/ml/hackathon/artifacts/results/model_registry.json

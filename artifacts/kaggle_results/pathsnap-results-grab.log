@@ -1,0 +1,12 @@
+[{"stream_name":"stdout","time":1.443319745,"data":"copied: ['/kaggle/working/kaggle_lightgbm_preds.npz', '/kaggle/working/kaggle_mlp.json', '/kaggle/working/kaggle_mlp_history.csv', '/kaggle/working/kaggle_mlp_preds.npz', '/kaggle/working/kaggle_optuna.json', '/kaggle/working/kaggle_optuna_trials.csv', '/kaggle/working/kaggle_summary.json', '/kaggle/working/mlp_model.pt']\n"}
+,{"stream_name":"stdout","time":1.443368798,"data":"tree:\n"}
+,{"stream_name":"stdout","time":1.44339722,"data":"/kaggle/input 0\n"}
+,{"stream_name":"stdout","time":1.4436441819999999,"data":"/kaggle/input/pathsnap-experiments 5\n"}
+,{"stream_name":"stdout","time":1.444142778,"data":"/kaggle/input/pathsnap-experiments/artifacts 2\n"}
+,{"stream_name":"stderr","time":4.566269596,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4.566309497,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4.975853178,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4.975880489,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6.636209722,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7.876349548,"data":"[NbConvertApp] Writing 276973 bytes to __results__.html\n"}
+]
