@@ -1,0 +1,25 @@
+# local environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# raw course data (not redistributed; place it in the paths below)
+Student folder/
+PathSnap_student_materials/
+
+# reserved evaluation trips (supplied separately, contain ground truth)
+evaluator_test/
+
+# large intermediate caches and downloaded Kaggle outputs
+artifacts/cache/
+artifacts/kaggle/
+kaggle/upload_data/
+kaggle/upload_code/
+kaggle/probe/
+
+# technical report deliverable (submitted separately; excluded from the code repository at all costs)
+reports/
+
+# session/browser internals
+.dsh-browser/

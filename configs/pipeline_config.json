@@ -1,0 +1,24 @@
+{
+  "candidate_radius_m": 50.0,
+  "candidate_fallback_radii_m": [
+    150.0,
+    400.0
+  ],
+  "max_candidates": 16,
+  "candidate_cell_m": 100.0,
+  "label_max_dist_m": 75.0,
+  "label_sigma_m": 15.0,
+  "label_allowed_back_m": 10.0,
+  "label_back_scale_m": 20.0,
+  "hmm": {
+    "beta_m": 20.0,
+    "emission_alpha": 0.1,
+    "max_states": 8,
+    "gap_free_s": 30.0,
+    "max_search_m": 3000.0
+  },
+  "random_seed": 42,
+  "model": "LightGBM candidate classifier (Bayesian-tuned)",
+  "features": 26,
+  "negative_sampling_ratio": 4
+}
