@@ -1,3 +1,10 @@
+# For faculty and TA
+As the owner of repo, i have committed all the files but all the files have their original contributor as the author.
+`Contributors` can show that proof.
+All the files were uploaded to github at the end of the hack.
+
+Thank you
+
 # PathSnap - Distributed Map-Matching and Route Reconstruction
 
 PathSnap matches noisy vehicle GPS traces to a road network and reconstructs the driven route.
